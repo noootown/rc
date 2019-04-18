@@ -1,0 +1,15 @@
+{
+  "disableColors": false,
+  "groupColors": true,
+  "conversationsToLoad": 30,
+  "preventMessageFlicker": false,
+  "desktopNotifications": true,
+  "showTimestamps": true,
+  "useCustomNicknames": true,
+  "timestampLocale": "en-US",
+  "timestampOptions": {},
+  "twoFactorAuth": false,
+  "headlessLogin": true,
+  "noSandbox": false,
+  "logonTimeout": 86400000000
+}

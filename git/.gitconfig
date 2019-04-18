@@ -1,0 +1,15 @@
+[alias]
+    wtf = !$ZSH_CONFIG_ROOT/git-wtf
+    show-conflict-files = diff --name-only --diff-filter=Uu
+    get-current-branch-name = !git branch | grep \\* | cut -d \" \" -f2
+    purge-branch = !git delete-merged-branches && git remote prune origin
+    push-upstream = !git push --set-upstream origin $(git get-current-branch-name)
+    rbi = !sh -c \"git rebase -i `git merge-base $1 HEAD`\" -
+[core]
+	editor = vim
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[credential]
+	helper = osxkeychain
