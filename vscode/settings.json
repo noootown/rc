@@ -1,0 +1,140 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 1.2,
+  "editor.rulers": [
+    120
+  ],
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.formatOnSave": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "vim.vimrc.enable": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#2c2c3b",
+    "activityBar.border": "#20202b",
+    "activityBarBadge.background": "#007acc",
+    "editor.background": "#000000",
+    "editor.findMatchBackground": "#5F5F00",
+    "editor.findMatchHighlightBackground": "#5F5F00",
+    "editor.findMatchHighlightBorder": "#FFF",
+    "editor.foreground": "#FFF",
+    "editor.lineHighlightBackground": "#5F5F00aa",
+    "editor.selectionBackground": "#214283",
+    "editor.wordHighlightBackground": "#115FF6",
+    "editorCursor.foreground": "#FFF",
+    "editorError.foreground": "#f00",
+    "editorWarning.foreground": "#ff0",
+    "editorGroupHeader.tabsBackground": "#2c2c3b",
+    "editorGutter.addedBackground": "#c9dfc0",
+    "editorGutter.background": "#000000",
+    "editorGutter.deletedBackground": "#c9dfc0",
+    "editorGutter.modifiedBackground": "#c9dfc0",
+    "editorIndentGuide.activeBackground": "#dddddda4",
+    "editorIndentGuide.background": "#666666a4",
+    "editorLineNumber.activeForeground": "#FFF",
+    "editorLineNumber.foreground": "#FFF",
+    "editorOverviewRuler.errorForeground": "#F00",
+    "editorOverviewRuler.findMatchForeground": "#00FF00",
+    "editorOverviewRuler.infoForeground": "#115FF6",
+    "editorOverviewRuler.rangeHighlightForeground": "#115FF6",
+    "editorOverviewRuler.selectionHighlightForeground": "#115FF6",
+    "editorOverviewRuler.warningForeground": "#F00",
+    "editorOverviewRuler.wordHighlightForeground": "#115FF6",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#115FF6",
+    "editorUnnecessaryCode.border": "#FFFF00",
+    "editorUnnecessaryCode.opacity": "#00000088",
+    "gitDecoration.modifiedResourceForeground": "#115FF6",
+    "list.activeSelectionBackground": "#713a91",
+    "list.errorForeground": "#FF0000",
+    "list.focusBackground": "#713a91",
+    "menu.background": "#2c2c3b",
+    "menu.selectionBackground": "#713a91",
+    "menubar.selectionBackground": "#713a91",
+    "menubar.selectionForeground": "#ffffff",
+    "progressBar.background": "#713a91",
+    "scrollbarSlider.activeBackground": "#F00",
+    "sideBar.background": "#2c2c3b",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#2c2c3b",
+    "tab.activeBackground": "#1188ff",
+    "tab.activeBorder": "#1188ff",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.foreground": "#FFFFFF",
+    "tab.inactiveBackground": "#2c2c3b",
+    "titleBar.activeBackground": "#2c2c3b",
+    "titleBar.border": "#20202b"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#AB69CC",
+    "keywords": "#CC7833",
+    "numbers": "#3387CC",
+    "strings": "#66CC33",
+    "variables": "#FFFFFF",
+    "types": "#E3E231",
+    "functions": "#E3E231",
+    "textMateRules": [
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#FF45FD"
+        }
+      },
+      {
+        "scope": "variable.other.constant",
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "scope": "constant.language",
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#CC7833",
+        }
+      },
+      {
+        "scope": "storage",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.operator",
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#CC7833",
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#CC7833",
+        }
+      },
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "support.type.property-name",
+        "settings": {
+          "foreground": "#FFF"
+        }
+      },
+    ]
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.inlineSuggest.enabled": true
+}
